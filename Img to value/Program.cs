@@ -16,8 +16,8 @@ namespace Img_to_value
             List<int> alphaList = new List<int>();
             Console.WriteLine("Please enter the path of the folder");
             string path = Console.ReadLine();
-            Console.WriteLine("Please enter the number of img you would like to convert");
-            int ImgNumber = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter the number of images you would like to convert");
+            int ImgNumber = int.Parse(Console.ReadLine()); //the files have to be named 1 - X to work
             Console.WriteLine("Please enter the file extencion");
             string extencion = Console.ReadLine();
             Console.WriteLine("Please enter the output destinacion");
