@@ -1,0 +1,8 @@
+C:\Users\matty\Source\repos\Img to value\Img to value\bin\Debug\Img to value.exe.config
+C:\Users\matty\Source\repos\Img to value\Img to value\bin\Debug\Img to value.exe
+C:\Users\matty\Source\repos\Img to value\Img to value\bin\Debug\Img to value.pdb
+C:\Users\matty\Source\repos\Img to value\Img to value\obj\Debug\Img to value.csproj.AssemblyReference.cache
+C:\Users\matty\Source\repos\Img to value\Img to value\obj\Debug\Img to value.csproj.SuggestedBindingRedirects.cache
+C:\Users\matty\Source\repos\Img to value\Img to value\obj\Debug\Img to value.csproj.CoreCompileInputs.cache
+C:\Users\matty\Source\repos\Img to value\Img to value\obj\Debug\Img to value.exe
+C:\Users\matty\Source\repos\Img to value\Img to value\obj\Debug\Img to value.pdb
