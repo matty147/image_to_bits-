@@ -22,8 +22,8 @@ namespace Img_to_value
             string extencion = Console.ReadLine();
             Console.WriteLine("Please enter the output destinacion");
             string outputDir = Console.ReadLine();
-
-
+            Console.WriteLine("Do you want to receive inforamtion when the program finishes a picture? Y/N");
+            string Info = Console.ReadLine();
 
             for (int CurentImg = 1; CurentImg <= ImgNumber; CurentImg++)
             {
@@ -42,7 +42,8 @@ namespace Img_to_value
                         int green = pixelColor.G;
                         int blue = pixelColor.B;
                         int alpha = pixelColor.A;
-                        alphaList.Add(red);
+                        int add = (red + green + blue) / 3;
+                        alphaList.Add(add);
                         //Console.WriteLine($"Pixel at ({w},{h}): R={red}, G={green}, B={blue}, A={alpha}");
                     }
                 }
@@ -52,12 +53,16 @@ namespace Img_to_value
                 {
                     foreach (int a in alphaList)
                     {
-                        if (a == 0)
+                        if (a >= 123) //200 is also good
                         {
-                            writer.Write("0 ");
+                            writer.Write("1 ");
                         }
-                        else writer.Write("1 ");
+                        else writer.Write("0 ");
                     }
+                }
+                if  (Info == "Y" || Info == "y")
+                {
+                    Console.WriteLine($"Finished image: {CurentImg}");
                 }
                 alphaList.Clear();
                 image.Dispose();
